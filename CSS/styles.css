@@ -6,7 +6,8 @@ h1 {
   text-align: center;
   font-family: 'Orbitron', sans-serif;
   font-size: 30px;
-  color: #0CF;
+  color: #662;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
 }
 
 .grid-container {
@@ -1042,6 +1043,7 @@ SIMILAR STYLING DISTORTS THE POSITION OF THE ELEMENTS IN THE GRID**/
   column-count: 2;
   font-weight: 100;
   font-family: 'Abel', sans-serif;
+  margin: 10px;
 
 }
 /** THIS CENTERS THE COLUMNS IN THEIR CONTAINER*/
@@ -1099,3 +1101,5 @@ footer {text-align: center;}
   color: #0CF;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
+
+
