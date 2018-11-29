@@ -4,7 +4,9 @@ body {
 
 h1 {
   text-align: center;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  color: #0CF;
 }
 
 .grid-container {
@@ -15,7 +17,8 @@ h1 {
 p {
   display: inline-block;
   color: #000;
-  font-family: 'Ranga', cursive;
+  font-family: 'Abel', sans-serif;
+
 }
 /**HTML/ROOT ELEMENT***/
 /**EACH ELEMENT AFTER THE ELEMENTS IN THE FIRST COLUMN
@@ -1038,6 +1041,8 @@ SIMILAR STYLING DISTORTS THE POSITION OF THE ELEMENTS IN THE GRID**/
   color: #fff;
   column-count: 2;
   font-weight: 100;
+  font-family: 'Abel', sans-serif;
+
 }
 /** THIS CENTERS THE COLUMNS IN THEIR CONTAINER*/
 
@@ -1087,7 +1092,10 @@ SIMILAR STYLING DISTORTS THE POSITION OF THE ELEMENTS IN THE GRID**/
   border-radius: 100%;
 }
 
+footer {text-align: center;}
 #info {
   text-align: center;
   font-family: 'Gloria Hallelujah', cursive;
+  color: #0CF;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
