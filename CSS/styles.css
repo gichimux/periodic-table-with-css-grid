@@ -4,7 +4,9 @@ body {
 
 h1 {
   text-align: center;
+  font-family: 'Abel', sans-serif;
 }
+
 .grid-container {
   display: grid;
   margin: 20px;
@@ -13,7 +15,7 @@ h1 {
 p {
   display: inline-block;
   color: #000;
-
+  font-family: 'Ranga', cursive;
 }
 /**HTML/ROOT ELEMENT***/
 /**EACH ELEMENT AFTER THE ELEMENTS IN THE FIRST COLUMN
@@ -1083,4 +1085,9 @@ SIMILAR STYLING DISTORTS THE POSITION OF THE ELEMENTS IN THE GRID**/
 #violet{
   border: 10px solid #A5A6A7;
   border-radius: 100%;
+}
+
+#info {
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
 }
